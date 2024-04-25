@@ -20,6 +20,12 @@ It's also the fourteenth project of the Scrimba Frontend Course, part of Module 
   ```
 - A way to determine **which styles to apply** to my HTML elements
   - Determine a condition and after it store a className with the styles in it to later apply that class in an `innerHTML`
+  - ```Javascript
+    let likeIconClass = ''
+    if (tweet.isLiked)
+      likeIconClass = 'liked'
+    likeIcon.innerHTML = `<i class=${likeIconClass}</i>`
+    ```
 - **CDNs**, a service to add assets to my code or website
   - In other words, a way to add new functionalities, created by other people and posted on the internet, into my project. 
 - **Font Awesome** (using CDN), to add and manage icons on HTML more easily. 
@@ -27,7 +33,8 @@ It's also the fourteenth project of the Scrimba Frontend Course, part of Module 
 
 
 ## Preview 
-<img style="text-align:center" src="https://github.com/AlexMakowiecki/nft-site/assets/122258496/2cde9755-0fd6-47a4-964e-aa793892ac33" width="500"/> 
+<img style="text-align:center" src="https://github.com/AlexMakowiecki/twimba/assets/122258496/c025f20f-3a55-4bdb-a157-8111fbd04b70" width="500"/> 
+
 
 ## About Scrimba!
 
